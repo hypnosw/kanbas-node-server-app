@@ -171,5 +171,46 @@
       </textarea>
     </form>
 
+    <h3>Buttons</h3>
+    <button type="button">Click me!</button>
+
+    <select>
+      <option value="VAL1">Value 1</option>
+      <option value="VAL2" selected>
+        Value 2</option>
+      <option value="VAL3">Value 3</option>
+    </select>
+
+    <select multiple>
+      <option value="VAL1" selected>Value 1</option>
+      <option value="VAL2">Value 2</option>
+      <option value="VAL3" selected>Value 3</option>
+    </select>
+
+    <h2>Dropdowns</h2>
+
+    <h3>Select one</h3>
+    <label for="select-one-genre">
+      Favorite movie genre:
+    </label><br/>
+    <select id="select-one-genre">
+      <option value="COMEDY">Comedy</option>
+      <option value="DRAMA">Drama</option>
+      <option selected value="SCIFI">
+        Science Fiction</option>
+      <option value="FANTASY">Fantasy</option>
+    </select>
+
+    <h3>Select many</h3>
+    <label for="select-many-genre">
+      Favorite movie genres:
+    </label><br/>
+    <select id="select-many-genre" multiple>
+      <option selected value="COMEDY">Comedy</option>
+      <option value="DRAMA">Drama</option>
+      <option selected value="SCIFI">
+        Science Fiction</option>
+      <option value="FANTASY">Fantasy</option>
+    </select>
   </body>
 </html>
