@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Edit Page</title>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <th>Sidebar</th>
+                <th>Options</th>
+                <th>grades</th>
+            </thead>
+
+            <tbody style="vertical-align: top;">
+            <!-- Hyper links -->
+                <td>
+                    <ul>
+                        <li>
+                            <a href="#">Account</a>
+                        </li>
+                        <li>
+                            <a href="#">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#">Courses</a>
+                        </li>
+                        <li>
+                            <a href="#">Calendar</a>
+                        </li>
+                        <li>
+                            <a href="#">Inbox</a>
+                        </li>
+                        <li>
+                            <a href="#">History</a>
+                        </li>
+                        <li>
+                            <a href="#">Studio</a>
+                        </li>
+                        <li>
+                            <a href="#">Commons</a>
+                        </li>
+                        <li>
+                            <a href="#">Help</a>
+                        </li>
+                    </ul>
+                </td>
+
+                <!-- Course Navigation -->
+                <td>
+                    <ul>
+                        <li>
+                            <a href="home.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Modules</a>
+                        </li>
+                        <li>
+                            <a href="#">Piazza</a>
+                        </li>
+                        <li>
+                            <a href="#">Zoom Meetings</a>
+                        </li>
+                        <li>
+                            <a href="#">Assignments</a>
+                        </li>
+                        <li>
+                            <a href="#">Quizzes</a>
+                        </li>
+                        <li>
+                            <a href="#">Grades</a>
+                        </li>
+                        <li>
+                            <a href="#">People</a>
+                        </li>
+                        <li>
+                            <a href="#">Panopto Video</a>
+                        </li>
+                        <li>
+                            <a href="#">Discussions</a>
+                        </li>
+                        <li>
+                            <a href="#">Announcements</a>
+                        </li>
+                        <li>
+                            <a href="#">Pages</a>
+                        </li>
+                        <li>
+                            <a href="#">Files</a>
+                        </li>
+                        <li>
+                            <a href="#">Rubrics</a>
+                        </li>
+                        <li>
+                            <a href="#">Outcomes</a>
+                        </li>
+                        <li>
+                            <a href="#">Collaborations</a>
+                        </li>
+                        <li>
+                            <a href="#">Syllabus</a>
+                        </li>
+                        <li>
+                            <a href="#">Settings</a>
+                        </li>
+                    </ul>
+                </td>
+
+                <td>
+                    <div style="border-bottom: 1px solid black; padding-bottom: 5px;">
+                        <select>
+                            <option>Speed Grader</option>
+                        </select>
+                    </div>
+
+                    <h3>Assignment Name</h3>
+                    <input type="text" value="A1 - ENV + HTML" style="display: block; margin-bottom: 10px;">
+                    <textarea>This is the assignment description</textarea>
+
+                    <p style="padding-bottom: 1px; margin-bottom: 2px;">Points</p>
+                    <input type="text" value="100">
+
+                    <p style="padding-bottom: 1px; margin-bottom: 2px;">Assignment Group</p>
+                    <select>
+                        <option>ASSIGNMENTS</option>
+                    </select>
+
+                    <p style="padding-bottom: 1px; margin-bottom: 2px;">Display Grade as</p>
+                    <select>
+                        <option>Percentage</option>
+                    </select>
+
+                    <p style="padding-bottom: 1px; margin-bottom: 2px;">Submission Type</p>
+                    <select>
+                        <option>Online</option>
+                    </select>
+
+                    <p style="padding-bottom: 1px; margin-bottom: 2px;">Online Entry Options</p>
+                    <div>
+                        <input type="checkbox" id="text-entry">
+                        <label for="text-entry">Text Entry</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="website-url">
+                        <label for="website-url">Website URL</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="media-recording">
+                        <label for="media-recording">Media Recordings</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="student-annotations">
+                        <label for="student-annotations">Student Annotations</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="file-uploads">
+                        <label for="file-uploads">File Uploads</label>
+                    </div>
+
+                    <p style="padding-bottom: 1px; margin-bottom: 2px;">Submission Attempts</p>
+                    <select>
+                        <option>Unlimited</option>
+                    </select>
+
+                    <p style="padding-bottom: 1px; margin-bottom: 2px;">Plagiarism Review</p>
+                    <select>
+                        <option>None</option>
+                    </select>
+
+                    <p style="padding-bottom: 1px; margin-bottom: 2px;">Group Assignment</p>
+                    <input type="checkbox" id="group-assignment">
+                    <label for="group-assignment">This is a group assignment</label>
+
+                    <p style="padding-bottom: 1px; margin-bottom: 2px;">Peer Reviews</p>
+                    <input type="checkbox" id="peer-review">
+                    <label for="peer-review">Require Peer Reviews</label>
+
+                    <p style="padding-bottom: 1px; margin-bottom: 2px;">Assign</p>
+                    <p style="padding-bottom: 1px; margin-bottom: 2px;">Assign to</p>
+                    <input type="text" value="Everyone">
+
+                    <p style="padding-bottom: 1px; margin-bottom: 2px;">Due</p>
+                    <input type="date">
+
+                    <p style="padding-bottom: 1px; margin-bottom: 2px;">Available From</p>
+                    <input type="date">
+
+                    <p style="padding-bottom: 1px; margin-bottom: 2px;">Until</p>
+                    <input type="date">
+
+                    <div style="margin-top: 20px;">
+                        <button onclick="window.location.href= 'assignments.html'">Cancel</button>
+                        <button onclick="window.location.href= 'assignments.html'">Save</button>
+                    </div>
+
+
+
+
+
+
+
+                </td>
+            </tbody>
+        </table>
+    </body>
+</html>
