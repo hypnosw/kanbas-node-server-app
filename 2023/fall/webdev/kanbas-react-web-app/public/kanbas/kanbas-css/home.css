@@ -1,0 +1,36 @@
+.wd-nav-bar {
+  width:85px;
+  /* height:100vh; */
+}
+
+ul {
+  list-style: none;
+}
+
+.wd-nav-bar-symbols{
+  width:50px;
+  display: flex;
+  color:red;
+}
+
+
+.wd-nav-bar-items{
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.wd-nav-bar-a-tags{
+  color:white;
+  text-decoration: none;
+  /* margin-top: 50px; */
+}
+
+.align-items-center{
+  padding: 0;
+}
+
+.wd-nav-bar-icon-text-set{
+  justify-content: center; align-items: center; display:flex; flex-direction: column;
+}
+
+
