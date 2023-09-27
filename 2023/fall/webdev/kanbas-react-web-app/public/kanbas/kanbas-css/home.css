@@ -7,9 +7,12 @@ ul {
   list-style: none;
 }
 
+#neuLogo{
+  width:80px;
+}
+
 .wd-nav-bar-symbols{
-  width:50px;
-  display: flex;
+  display: block;
   color:red;
 }
 
@@ -23,6 +26,8 @@ ul {
   color:white;
   text-decoration: none;
   /* margin-top: 50px; */
+  padding:10px;
+  display:block;
 }
 
 .align-items-center{
