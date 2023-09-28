@@ -5,13 +5,6 @@
   
 }
 
-.wd-sidebar-a-tags{
-  color:white;
-  text-decoration: none;
-  display:block;
-  padding:10px;
-}
-
 .wd-sidebar-symbols{
   display: block;
   color:red;
@@ -24,15 +17,15 @@
 
 
 #wd-sidebar {
-position: fixed;
+/* position: fixed; */
 height: 100%;
-width: 85px;
+/* width: 85px; */
 z-index: 100;
 align-items: center;
 background-color: black;
 display:flex;
 align-items:flex-start;
-margin:0px;
+/* margin:0px; */
 }
 
 .wd-menu-list{
@@ -56,6 +49,13 @@ margin:0px;
   display:flex;
   flex-direction: column;
   cursor:pointer;
+}
+
+.wd-menu-list li a{
+  color:white;
+  text-decoration: none;
+  display:block;
+  padding:10px;
 }
 
 #wd-expanded-options{
