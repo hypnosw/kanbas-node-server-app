@@ -6,3 +6,17 @@ body * {
   font-family: Arial;
   padding-left: 100;
 }
+
+ul {
+  list-style: none;
+}
+
+.wd-menu-list .wd-active-item {
+  background-color: white;
+}
+.wd-menu-list .wd-active-item a {
+  color:rgb(167, 21, 35);
+}
+.wd-menu-list .wd-active-item i {
+  color:rgb(167, 21, 35);
+}

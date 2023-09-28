@@ -1,0 +1,71 @@
+.wd-nav-bar {
+  max-width:85px;
+  /* height:100vh; */
+}
+
+
+#wd-neuLogo{
+  width:60px;
+  margin-bottom: 10px;
+  
+}
+
+.wd-nav-bar-a-tags{
+  color:white;
+  text-decoration: none;
+  display:block;
+  padding:10px;
+}
+
+.wd-nav-bar-symbols{
+  display: block;
+  color:red;
+  font-size: 30px;
+}
+
+.align-items-center{
+  padding: 0;
+}
+
+.wd-nav-bar-icon-text-set{
+  justify-content: center; align-items: center; display:flex; flex-direction: column;
+}
+
+#wd-sidebar {
+position: fixed;
+height: 100%;
+width: 85px;
+z-index: 100;
+align-items: center;
+background-color: black;
+display:flex;
+align-items:flex-start;
+margin:0px;
+}
+
+.wd-menu-list{
+  /* display:flex; */
+  flex-direction: column;
+  align-items: center;
+  /* flex-grow:1; */
+  padding:0px;
+}
+
+#wd-account-icon{
+  color:white;
+}
+
+.wd-menu-list li{
+  font-size:0.8em;
+  text-align: center;
+  padding:0px;
+  align-items: center;
+  padding-top: 10px;
+  display:flex;
+  flex-direction: column;
+  cursor:pointer;
+}
+
+#wd-expanded-options{
+  margin-left: 55px;
+}
