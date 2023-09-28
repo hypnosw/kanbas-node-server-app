@@ -17,22 +17,18 @@
 
 
 #wd-sidebar {
-/* position: fixed; */
+/* position: sticky; */
 height: 100%;
-/* width: 85px; */
 z-index: 100;
 align-items: center;
 background-color: black;
 display:flex;
 align-items:flex-start;
-/* margin:0px; */
 }
 
 .wd-menu-list{
-  /* display:flex; */
   flex-direction: column;
   align-items: center;
-  /* flex-grow:1; */
   padding:0px;
 }
 
@@ -49,6 +45,10 @@ align-items:flex-start;
   display:flex;
   flex-direction: column;
   cursor:pointer;
+}
+
+.wd-menu-list li i{
+  margin-bottom: 10px;
 }
 
 .wd-menu-list li a{
