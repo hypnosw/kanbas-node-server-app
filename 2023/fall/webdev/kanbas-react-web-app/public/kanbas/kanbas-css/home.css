@@ -7,27 +7,23 @@ ul {
   list-style: none;
 }
 
-#neuLogo{
-  width:80px;
-}
-
-.wd-nav-bar-symbols{
-  display: block;
-  color:red;
-}
-
-
-.wd-nav-bar-items{
-  justify-content: center;
-  margin-top: 20px;
+#wd-neuLogo{
+  width:60px;
+  margin-bottom: 10px;
+  
 }
 
 .wd-nav-bar-a-tags{
   color:white;
   text-decoration: none;
-  /* margin-top: 50px; */
-  padding:10px;
   display:block;
+  padding:10px;
+}
+
+.wd-nav-bar-symbols{
+  display: block;
+  color:red;
+  font-size: 30px;
 }
 
 .align-items-center{
@@ -37,14 +33,37 @@ ul {
 .wd-nav-bar-icon-text-set{
   justify-content: center; align-items: center; display:flex; flex-direction: column;
 }
-.sidebar {
-  position: absolute;
+
+#wd-sidebar {
+position: fixed;
 height: 100%;
-display: flex;
-flex-direction: column;
 width: 85px;
 z-index: 100;
-background-color: black;
-overflow: auto;
 }
 
+.wd-menu-list{
+  /* display:flex; */
+  flex-direction: column;
+  align-items: center;
+  /* flex-grow:1; */
+  padding:0px;
+}
+
+#wd-account-icon{
+  color:white;
+}
+
+.wd-menu-list li{
+  font-size:0.8em;
+  text-align: center;
+  padding:0px;
+  align-items: center;
+  margin-top: 10px;
+  display:flex;
+  flex-direction: column;
+  cursor:pointer;
+}
+
+#wd-expanded-options{
+  margin-left: 55px;
+}
