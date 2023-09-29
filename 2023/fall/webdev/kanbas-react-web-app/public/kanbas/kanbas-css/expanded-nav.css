@@ -4,6 +4,12 @@
 
 .wd-expanded-nav{
     margin:0px;
+    display:flex;
+    width:170px;
+}
+
+.wd-expanded-nav ul{
+    padding:15px;
 }
 
 .wd-expanded-nav ul li a{

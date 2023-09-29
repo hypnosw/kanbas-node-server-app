@@ -18,12 +18,13 @@
 
 #wd-sidebar {
 /* position: sticky; */
+display:flex;
 height: 100%;
 z-index: 100;
 align-items: center;
 background-color: black;
-display:flex;
 align-items:flex-start;
+width:85px;
 }
 
 .wd-menu-list{
@@ -45,6 +46,7 @@ align-items:flex-start;
   display:flex;
   flex-direction: column;
   cursor:pointer;
+
 }
 
 .wd-menu-list li i{
