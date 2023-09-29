@@ -1,0 +1,11 @@
+.profile-page{
+    display:grid;
+    grid-template-columns: 85px repeat(2,1fr);
+    margin:0px;
+    padding:0px;
+    height:100vh;
+}
+/* 
+body{
+    margin:0;
+} */

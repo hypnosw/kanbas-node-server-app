@@ -1,10 +1,10 @@
 body {
-  padding-left: 100;
+  margin:0;
 }
   
 body * {
   font-family: Arial;
-  padding-left: 100;
+  margin: 0;
 }
 
 ul {
@@ -18,7 +18,9 @@ ul {
 .wd-menu-list .wd-active-item a {
   color:rgb(167, 21, 35);
 }
-.wd-menu-list .wd-active-item i {
+
+/* a i or just i*/
+.wd-menu-list .wd-active-item a i {
   color:rgb(167, 21, 35);
 }
 

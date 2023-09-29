@@ -3,118 +3,168 @@
 <html>
     <head>
         <title>Hypnos Kanbas Account</title>
+				<link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/><head>
+				<script src="https://kit.fontawesome.com/a78a37b29f.js" crossorigin="anonymous"></script>
+				<link href="../kanbas-css/style.css" rel="stylesheet">
+				<link href="../kanbas-css/sidebar.css" rel="stylesheet"/>
+				<link href="index.css" rel="stylesheet">
+				<link href="../kanbas-css/expanded-nav.css" rel="stylesheet"/>
+
+
     </head>
 
     <body>
-        <table width="100%" style="vertical-align: top;">
-            <!--        <thead>-->
-            <!--          <tr>-->
-            <!--            <th>Hyperlinks</th>-->
-            <!--            <th>Course Navigation</th>-->
-            <!--            <th>Course Content</th>-->
-            <!--            <th>Additional Information</th>-->
-            <!--          </tr>-->
-            <!--        </thead>-->
+			<div class="profile-page">
+				<!-- Sidebar -->
+				<div class="container-flex" id="wd-sidebar">
+					<ul class="wd-menu-list">
+						<!-- NEU Icon -->
+								<li>
+									<a href="../home.html">
+										<img src="../../images/neu-logo.png" id="wd-neuLogo">
+									</a>
+								</li>
+	
+								<!-- Account -->
+								<li  class="wd-active-item">
+									<a href="index.html">
+										<i class="fa fa-user fa-3x wd-sidebar-symbols" id="wd-account-icon"></i>
+										Account
+									</a>
+								</li>
+	
+								<!-- Dashboard -->
+								<li>
+									<a href="../home.html">
+										<i class="fa fa-gauge fa-3x wd-sidebar-symbols"></i>
+										Dashboard
+									</a>
+								</li>
+	
+								<!-- Courses -->
+								<li>
+									<a href="#">
+										<i class="fa fa-book fa-3x wd-sidebar-symbols"></i>
+										Courses
+									</a>
+								</li>
+	
+								<!-- Calendar -->
+								<li>
+									<a href="#">
+										<i class="fa fa-calendar fa-3x wd-sidebar-symbols"></i>
+										Calendar
+									</a>
+								</li>
+	
+								<!-- Inbox -->
+								<li>
+									<a href="#">
+										<i class="fa fa-inbox fa-3x wd-sidebar-symbols"></i>
+										Inbox
+									</a>
+								</li>
+	
+								<!-- History -->
+								<li>
+									<a href="#">
+										<i class="fa fa-clock fa-3x wd-sidebar-symbols"></i>
+										History
+									</a>
+								</li>
+	
+								<li>
+									<a href="#">
+										<i class="fa fa-tv fa-3x wd-sidebar-symbols"></i>
+										Studio
+									</a>
+								</li>
+	
+								<li>
+									<a href="#">
+										<i class="fa fa-creative-commons fa-3x wd-sidebar-symbols"></i>
+										Commons
+									</a>
+								</li>
+	
+								<li>
+									<a href="#">
+										<i class="fa fa-question fa-3x wd-sidebar-symbols"></i>
+										Help
+									</a>
+								</li>
+							</ul>
+				</div>
+
+				<!-- Account Navigation -->
+				<div class="wd-expanded-nav">
+					<ul>
+						<li>
+								<a href="#">Notifications</a>
+						</li>
+
+						<li class="wd-active-expanded-item">
+								<a href="profile.html">Profile</a>
+						</li>
+						
+						<li>
+								<a href="#">Files</a>
+						</li>
+						<li>
+								<a href="#">Settings</a>
+						</li>
+						<li>
+								<a href="#">ePortfolios</a>
+						</li>
+						<li>
+								<a href="#">Shared Content</a>
+						</li>
+						<li>
+								<a href="#">The Hub</a>
+						</li>
+						<li>
+								<a href="#">Qwickly Course Tools</a>
+						</li>
+						<li>
+								<a href="#">Global Announcements</a>
+						</li>
+				</ul>
+				</div>
+
+				<!-- Account Profile -->
+				<div>
+					<p style="border-bottom: 1px solid gray;">Hypnos Wu's Profile</p>
+					<div>
+							<div style="width:1fr; display: inline-flex">
+									<div>
+											<h2 >Hypnos Wu</h2>
+											<h3>Contact</h3>
+											<p>
+													No registrered services, you can add some on the 
+													<span>
+															<a href="#" style="text-decoration: none;">settings</a>
+													</span> page
+											</p>
+											<h3>Biography</h3>
+											<p>Student</p>
+											<h3>Links</h3>
+											<p>Not Available</p>
+									</div>
+
+							</div>
+
+							<div style="width:1fr; display: inline-flex; align-items: end;">
+									<button onclick="window.location.href='profile.html'">Edit Profile</button>
+							</div>
+					</div>
+				</div>
+			</div>
+
             
-            <tbody style="vertical-align: top;">
-                <tr style="vertical-align: top;">
-                    <!-- Hyper links -->
-                    <td>
-                        <ul>
-                        <li>
-                            <a href="index.html">Account</a>
-                        </li>
-                        <li>
-                            <a href="#">Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="../home.html">Courses</a>
-                        </li>
-                        <li>
-                            <a href="#">Calendar</a>
-                        </li>
-                        <li>
-                            <a href="#">Inbox</a>
-                        </li>
-                        <li>
-                            <a href="#">History</a>
-                        </li>
-                        <li>
-                            <a href="#">Studio</a>
-                        </li>
-                        <li>
-                            <a href="#">Commons</a>
-                        </li>
-                        <li>
-                            <a href="#">Help</a>
-                        </li>
-                        </ul>
-                    </td>
-            
-                        <!-- Course Navigation -->
-                    <td>
-                        <ul>
-                            <li>
-                                <a href="#">Notifications</a>
-                            </li>
-
-                            <li>
-                                <a href="profile.html">Profile</a>
-                            </li>
-                            <li>
-                                <a href="#">Files</a>
-                            </li>
-                            <li>
-                                <a href="#">Settings</a>
-                            </li>
-                            <li>
-                                <a href="#">ePortfolios</a>
-                            </li>
-                            <li>
-                                <a href="#">Shared Content</a>
-                            </li>
-                            <li>
-                                <a href="#">The Hub</a>
-                            </li>
-                            <li>
-                                <a href="#">Qwickly Course Tools</a>
-                            </li>
-                            <li>
-                                <a href="#">Global Announcements</a>
-                            </li>
-                        </ul>
-                    </td>
-
-                    <td>
-                        <p style="border-bottom: 1px solid gray;">Hypnos Wu's Profile</p>
-                        <div>
-                            <div style="width:1fr; display: inline-flex">
-                                <div>
-                                    <h2 >Hypnos Wu</h2>
-                                    <h3>Contact</h3>
-                                    <p>
-                                        No registrered services, you can add some on the 
-                                        <span>
-                                            <a href="#" style="text-decoration: none;">settings</a>
-                                        </span> page
-                                    </p>
-                                    <h3>Biography</h3>
-                                    <p>Student</p>
-                                    <h3>Links</h3>
-                                    <p>Not Available</p>
-                                </div>
-
-                            </div>
-    
-                            <div style="width:1fr; display: inline-flex; align-items: end;">
-                                <button onclick="window.location.href='profile.html'">Edit Profile</button>
-                            </div>
-                        </div>
 
 
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+
+
+
     </body>
 </html>

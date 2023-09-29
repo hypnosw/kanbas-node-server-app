@@ -1,8 +1,6 @@
-/* #page-contents{
-    margin-left: 85px;
-} */
+
 .wd-home-page{
     display: grid;
     grid-template-columns:85px repeat(3, 1fr);
     height:100vh;
-  }
+}
