@@ -5,7 +5,7 @@
 .wd-expanded-nav{
     margin:0px;
     display:flex;
-    width:170px;
+    width:190px;
 }
 
 .wd-expanded-nav ul{
@@ -49,5 +49,5 @@
 .wd-active-expanded-item a{
     color:black;
     font-weight: bold;
-    padding-left:5px;
+    padding-left:8px;
 }

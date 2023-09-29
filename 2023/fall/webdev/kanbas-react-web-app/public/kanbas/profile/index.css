@@ -43,10 +43,21 @@
 
 .wd-account-info{
     width:1fr; 
-    display: inline-flex; 
+    display: block; 
     flex:3;
 }
 
 .wd-page-wrapper{
     width: 100%;
 }
+
+.wd-account-info > i{
+    color:gray;
+    border-radius:50%;
+    padding:15px;
+    border: 2px solid #d3d9d9;
+}
+.wd-account-info * {
+    margin-bottom: 20px;
+}
+
