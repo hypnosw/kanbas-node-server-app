@@ -4,7 +4,6 @@
 
 .wd-expanded-nav{
     margin:0px;
-    display:flex;
     width:190px;
 }
 
@@ -21,7 +20,7 @@
 }
 
 .wd-expanded-nav ul li{
-    margin:20px;
+    margin:8px;
     margin-left:0px;
 }
 

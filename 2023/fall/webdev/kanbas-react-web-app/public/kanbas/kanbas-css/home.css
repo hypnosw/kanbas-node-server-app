@@ -1,6 +1,13 @@
 
 .wd-home-page{
     display: grid;
-    grid-template-columns:85px 170px repeat(2, 1fr);
+    grid-template-columns:4fr 1fr;
     height:100vh;
+}
+
+.wd-page-wrapper{
+    display:grid;
+    grid-template-columns: 85px 1fr;
+    grid-template-rows: 100%;
+    height:100%;
 }

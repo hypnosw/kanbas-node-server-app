@@ -1,7 +1,7 @@
 
 #wd-neuLogo{
   width:60px;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
   
 }
 
@@ -18,13 +18,11 @@
 
 #wd-sidebar {
 /* position: sticky; */
-display:flex;
+/* display:flex; */
 height: 100%;
 z-index: 100;
-align-items: center;
 background-color: black;
-align-items:flex-start;
-width:85px;
+/* width:85px; */
 }
 
 .wd-menu-list{
@@ -42,7 +40,7 @@ width:85px;
   text-align: center;
   padding:0px;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 7px;
   display:flex;
   flex-direction: column;
   cursor:pointer;
@@ -50,14 +48,14 @@ width:85px;
 }
 
 .wd-menu-list li i{
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .wd-menu-list li a{
   color:white;
   text-decoration: none;
   display:block;
-  padding:10px;
+  padding:7px;
 }
 
 #wd-expanded-options{

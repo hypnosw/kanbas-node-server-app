@@ -1,5 +1,6 @@
 .wd-profile-page{
-    display:flex;
+    display:grid;
+    grid-template-columns: 85px 1fr;
     /* grid-template-columns: 85px 170px 1fr; */
     margin:0px;
     padding:0px;
@@ -37,7 +38,6 @@
     flex: 1;
     align-items: start;
     justify-content: right;
-    margin-top:20px;
     padding-right:20px;
 }
 
@@ -68,5 +68,9 @@
 .wd-account-info > p > span:hover{
     text-decoration: underline;
     color:rgb(125, 3, 17);
+}
+
+.wd-account-info a{
+    color:#b52828;
 }
 
