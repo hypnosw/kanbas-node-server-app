@@ -24,3 +24,7 @@
 .card{
     width:260px;
 }
+
+.wd-course-card > div{
+    width:250px;
+}
