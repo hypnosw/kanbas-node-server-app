@@ -154,7 +154,8 @@ a{
 
 
 .wd-sandwich-sidebar-button-container{
-    display:flex; align-items: center;
+    display:flex; 
+    align-items: center;
 }
 
 .wd-small-bar-name-container p{

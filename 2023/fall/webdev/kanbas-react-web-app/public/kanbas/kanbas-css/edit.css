@@ -1,0 +1,18 @@
+.breadcrumb li a{
+    color:#b52828;
+    text-decoration: none;
+}
+
+.wd-published-message p{
+    color:green;
+    text-align: center;
+}
+
+.wd-published-message p i{
+    color:green;
+}
+
+/* 
+.wd-main-content-wrapper{
+    width:100vh;
+} */
