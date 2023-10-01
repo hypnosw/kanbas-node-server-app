@@ -3,245 +3,357 @@
 <html>
     <head>
         <title>Hypnos Kanbas Assignments</title>
+        <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/><head>
+        <script src="https://kit.fontawesome.com/a78a37b29f.js" crossorigin="anonymous"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" />
+    
+        <link href="kanbas-css/sidebar.css" rel="stylesheet"/>
+        <link href="kanbas-css/assignments.css" rel="stylesheet"/>
+        <link href="kanbas-css/style.css" rel="stylesheet"/>
+        <link href="kanbas-css/expanded-nav.css" rel="stylesheet"/>
     </head>
 
     <body>
-        <table>
-            <thead>
-                <th></th>
-                <th></th>
-                <th></th>
-            </thead>
-
-            <tbody style="vertical-align: top;">
-            <!-- Hyper links -->
-                <td>
-                    <ul>
-                    <li>
-                        <a href="profile/index.html">Account</a>
-                    </li>
-                    <li>
-                        <a href="#">Dashboard</a>
-                    </li>
-                    <li>
-                        <a href="home.html">Courses</a>
-                    </li>
-                    <li>
-                        <a href="#">Calendar</a>
-                    </li>
-                    <li>
-                        <a href="#">Inbox</a>
-                    </li>
-                    <li>
-                        <a href="#">History</a>
-                    </li>
-                    <li>
-                        <a href="#">Studio</a>
-                    </li>
-                    <li>
-                        <a href="#">Commons</a>
-                    </li>
-                    <li>
-                        <a href="#">Help</a>
-                    </li>
-                    </ul>
-                </td>
-
-                <!-- Course Navigation -->
-                <td>
-                    <ul>
-                    <li>
-                        <a href="home.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Modules</a>
-                    </li>
-                    <li>
-                        <a href="#">Piazza</a>
-                    </li>
-                    <li>
-                        <a href="#">Zoom Meetings</a>
-                    </li>
-                    <li>
-                        <a href="assignments.html">Assignments</a>
-                    </li>
-                    <li>
-                        <a href="#">Quizzes</a>
-                    </li>
-                    <li>
-                        <a href="grades.html">Grades</a>
-                    </li>
-                    <li>
-                        <a href="#">People</a>
-                    </li>
-                    <li>
-                        <a href="#">Panopto Video</a>
-                    </li>
-                    <li>
-                        <a href="#">Discussions</a>
-                    </li>
-                    <li>
-                        <a href="#">Announcements</a>
-                    </li>
-                    <li>
-                        <a href="#">Pages</a>
-                    </li>
-                    <li>
-                        <a href="#">Files</a>
-                    </li>
-                    <li>
-                        <a href="#">Rubrics</a>
-                    </li>
-                    <li>
-                        <a href="#">Outcomes</a>
-                    </li>
-                    <li>
-                        <a href="#">Collaborations</a>
-                    </li>
-                    <li>
-                        <a href="#">Syllabus</a>
-                    </li>
-                    <li>
-                        <a href="course-details.html">Settings</a>
-                    </li>
-                    </ul>
-                </td>
-
-                <td>
-                    <div style="border-bottom: 1px solid black; padding-bottom: 5px;">
-                        <input type="text" placeholder="Search for Assignments">
-                        <button>Group</button>
-                        <button>Assignment</button>
-                        <select>
-                            <option>Edit Assignment Dates</option>
-                        </select>
+        <div class="wd-page-wrapper">
+            <div class="container-block">
+                <!-- Entire Page -->
+                <div class="row">
+                    <!-- Sidebar -->
+                    <div class="col col-auto">
+                        <nav id="wd-sidebar">
+    
+                            <ul class="wd-menu-list">
+                            <!-- NEU Icon -->
+                                <li>
+                                    <a href="home.html">
+                                    <img src="../images/neu-logo.png" id="wd-neuLogo">
+                                    </a>
+                                </li>
+                
+                                <!-- Account -->
+                                <li>
+                                    <a href="profile/index.html">
+                                    <i class="fa fa-user fa-3x wd-sidebar-symbols" id="wd-account-icon"></i>
+                                    Account
+                                    </a>
+                                </li>
+                
+                                <!-- Dashboard -->
+                                <li>
+                                    <a href="dashboard.html">
+                                    <i class="fa fa-gauge fa-3x wd-sidebar-symbols"></i>
+                                    Dashboard
+                                    </a>
+                                </li>
+                
+                                <!-- Courses -->
+                                <li class="wd-active-item">
+                                    <a href="#">
+                                    <i class="fa fa-book fa-3x wd-sidebar-symbols"></i>
+                                    Courses
+                                    </a>
+                                </li>
+                
+                                <!-- Calendar -->
+                                <li>
+                                    <a href="#">
+                                    <i class="fa fa-calendar fa-3x wd-sidebar-symbols"></i>
+                                    Calendar
+                                    </a>
+                                </li>
+                
+                                <!-- Inbox -->
+                                <li>
+                                    <a href="#">
+                                    <i class="fa fa-inbox fa-3x wd-sidebar-symbols"></i>
+                                    Inbox
+                                    </a>
+                                </li>
+                
+                                <!-- History -->
+                                <li>
+                                    <a href="#">
+                                    <i class="fa fa-clock fa-3x wd-sidebar-symbols"></i>
+                                    History
+                                    </a>
+                                </li>
+                
+                                <li>
+                                    <a href="#">
+                                    <i class="fa fa-tv fa-3x wd-sidebar-symbols"></i>
+                                    Studio
+                                    </a>
+                                </li>
+                
+                                <li>
+                                    <a href="#">
+                                    <i class="fa fa-creative-commons fa-3x wd-sidebar-symbols"></i>
+                                    Commons
+                                    </a>
+                                </li>
+                
+                                <li>
+                                    <a href="#">
+                                    <i class="fa fa-question fa-3x wd-sidebar-symbols"></i>
+                                    Help
+                                    </a>
+                                </li>
+                                </ul>
+                        </nav>
                     </div>
 
-                    <!-- Assignments -->
-                    <h3 style="display: inline-flex;">ASSIGNMENTS 40% of Total</h3>
-                    <select onchange="window.location.href=this.value">
-                        <option value="edit.html">Edit</option>
-                        <option value="edit.html">Speed Grader</option>
-                        <option value="edit.html">Duplicate</option>
-                        <option value="edit.html">Delete</option>
-                        <option value="edit.html">Move To...</option>
-                        <option value="edit.html">Send To...</option>
-                        <option value="edit.html">Copy To...</option>
-                        <option value="edit.html">Share to Commons</option>
-                    </select>
-                    <ul>
-                        <li>
-                            <a href="edit.html" style="display:inline-flex;">A1 - ENV + HTML Multiple Modules</a>
-                            <p style="display:inline-flex;">| Not Available yet</p>
-                        </li>
+                    <!-- Rest of Page -->
+                    <div class="col">
+                        <!-- Breadcrumb --> 
+                        <div class="row mb-1 mx-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="col p-0 wd-breadcrumb-container"> 
+                                    <!-- Not able to change / to > for some reason -->
+                                    <div class="d-flex bg-white">
+                                        <button class="wd-hamburger-button">
+                                        <i class="fa fa-bars fa-2x"></i>
+                                        </button>
+                                        <nav id="wd-bread" aria-label="breadcrumb">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item" aria-current="page">
+                                                <a href="courses.html">
+                                                    CS5610.11550.202410
+                                                </a>
+                                            </li>
+                                            <li class="breadcrumb-item active" aria-current="page">Assignments</li>
+                                        </ol>
+                                        </nav>
+                                    </div>
+                                </div>
 
-                        <li>
-                            <a href="edit.html" style="display:inline-flex;">A2 - CSS + BOOTSTRAP Multiple Modules</a>
-                            <p style="display:inline-flex;">| Not Available yet</p>
-                        </li>
+                                <button type="button" class="btn wd-student-view-button">
+                                    <i class="fa fa-glasses"></i>
+                                    Student View
+                                </button>
+                            </div>
+                            <hr/>
+                        </div>
 
-                        <li>
-                            <a href="edit.html" style="display:inline-flex;">A3 - JS + REACT Multiple Modules</a>
-                            <p style="display:inline-flex;">| Not Available yet</p>
-                        </li>
 
-                        <li>
-                            <a href="edit.html" style="display:inline-flex;">A4 - STATE + REDUX Multiple Moudles</a>
-                            <p style="display:inline-flex;">| Not Available yet</p>
-                        </li>
+                        <div class="row">
+                            <!-- Expanded Options-->
+                            <div class="col col-auto m-2 p-0 wd-expanded-nav-container">
+                            <!-- Expanded Options-->
+                            <div class="wd-expanded-nav" >
+                                <ul>
+                                <li>
+                                    <a href="home.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Modules</a>
+                                </li>
+                                <li>
+                                    <a href="#">Piazza</a>
+                                </li>
+                                <li>
+                                    <a href="#">Zoom Meetings</a>
+                                </li>
+                                <li class="wd-active-expanded-item">
+                                    <a href="assignments.html">Assignments</a>
+                                </li>
+                                <li>
+                                    <a href="#">Quizzes</a>
+                                </li>
+                                <li>
+                                    <a href="grades.html">Grades</a>
+                                </li>
+                                <li>
+                                    <a href="#">People</a>
+                                </li>
+                                <li>
+                                    <a href="#">Panopto Video</a>
+                                </li>
+                                <li>
+                                    <a href="#">Discussions</a>
+                                </li>
+                                <li>
+                                    <a href="#">Announcements</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pages</a>
+                                </li>
+                                <li>
+                                    <a href="#">Files</a>
+                                </li>
+                                <li>
+                                    <a href="#">Rubrics</a>
+                                </li>
+                                <li>
+                                    <a href="#">Outcomes</a>
+                                </li>
+                                <li>
+                                    <a href="#">Collaborations</a>
+                                </li>
+                                <li>
+                                    <a href="#">Syllabus</a>
+                                </li>
+                                <li>
+                                    <a href="course-details.html">Settings</a>
+                                </li>
+                                </ul>
+                            </div>
+                            </div>
 
-                        <li>
-                            <a href="edit.html" style="display:inline-flex;">A5 - NODE + SESSIONS Multiple Modules</a>
-                            <p style="display:inline-flex;">| Not Available yet</p>
-                        </li>
+                            <!-- Assignments -->
+                            <div class="col">
+                                <!-- Search for Assignment row-->
+                                <div class="row">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <input type="text" class="form-control" placeholder="Search for Assignments">
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <button type="button" class="btn btn-light">
+                                                <i class="fa fa-plus"></i>Group
+                                            </button>
+                                            <button type="button" class="btn btn-light">
+                                                <i class="fa fa-plus"></i>
+                                                Assignment
+                                            </button>
 
-                        <li>
-                            <a href="edit.html" style="display:inline-flex;">A6 - MONGO + MONGOOSE Multiple Modules</a>
-                            <p style="display:inline-flex;">| Not Available yet</p>
-                        </li>
+                                            <select>
+                                                <option>Edit Assignment Dates</option>
+                                            </select>
+                                        </div>
+                                    </div>
 
-                    </ul>
+                                </div>
+                                
+                                <!-- Assignment List-->
+                                <div class="row">
+                                    <!-- Assignments -->
+                                    <h3 style="display: inline-flex;">ASSIGNMENTS 40% of Total</h3>
+                                    <select onchange="window.location.href=this.value">
+                                        <option value="edit.html">Edit</option>
+                                        <option value="edit.html">Speed Grader</option>
+                                        <option value="edit.html">Duplicate</option>
+                                        <option value="edit.html">Delete</option>
+                                        <option value="edit.html">Move To...</option>
+                                        <option value="edit.html">Send To...</option>
+                                        <option value="edit.html">Copy To...</option>
+                                        <option value="edit.html">Share to Commons</option>
+                                    </select>
+                                    <ul>
+                                        <li>
+                                            <a href="edit.html" style="display:inline-flex;">A1 - ENV + HTML Multiple Modules</a>
+                                            <p style="display:inline-flex;">| Not Available yet</p>
+                                        </li>
 
-                    <!-- Quizzes -->
-                    <h3 style="display: inline-flex;">QUIZZES 10% of Total</h3>
-                    <select onchange="window.location.href=this.value">
-                        <option value="edit.html">Edit</option>
-                        <option value="edit.html">Speed Grader</option>
-                        <option value="edit.html">Duplicate</option>
-                        <option value="edit.html">Delete</option>
-                        <option value="edit.html">Move To...</option>
-                        <option value="edit.html">Send To...</option>
-                        <option value="edit.html">Copy To...</option>
-                        <option value="edit.html">Share to Commons</option>
-                    </select>
-                    <ul>
-                        <li>
-                            <a href="edit.html" style="display:inline-flex;">Q1 - HTML Multiple Modules</a>
-                            <p style="display:inline-flex;">| Not Available yet</p>
-                        </li>
-                        <li>
-                            <a href="edit.html" style="display:inline-flex;">Q2 - CSS Multiple Modules</a>
-                            <p style="display:inline-flex;">| Not Available yet</p>
-                        </li>
-                        <li>
-                            <a href="edit.html" style="display:inline-flex;">Q3 - JS, ES6 Multiple Modules</a>
-                            <p style="display:inline-flex;">| Not Available yet</p>
-                        </li>
-                        <li>
-                            <a href="edit.html" style="display:inline-flex;">Q4 - NODE Multiple Modules</a>
-                            <p style="display:inline-flex;">| Not Available yet</p>
-                        </li>
-                        <li>
-                            <a href="edit.html" style="display:inline-flex;">Q5 - MONGO Multiple Modules</a>
-                            <p style="display:inline-flex;">| Not Available yet</p>
-                        </li>
-                    </ul>
+                                        <li>
+                                            <a href="edit.html" style="display:inline-flex;">A2 - CSS + BOOTSTRAP Multiple Modules</a>
+                                            <p style="display:inline-flex;">| Not Available yet</p>
+                                        </li>
 
-                    <!-- Exams -->
-                    <h3 style="display: inline-flex;">EXAMS 20% of Total</h3>
-                    <select onchange="window.location.href=this.value">
-                        <option value="edit.html">Edit</option>
-                        <option value="edit.html">Speed Grader</option>
-                        <option value="edit.html">Duplicate</option>
-                        <option value="edit.html">Delete</option>
-                        <option value="edit.html">Move To...</option>
-                        <option value="edit.html">Send To...</option>
-                        <option value="edit.html">Copy To...</option>
-                        <option value="edit.html">Share to Commons</option>
-                    </select>
-                    <ul>
-                        <li>
-                            <a href="edit.html" style="display:inline-flex;">Midterm Multiple Modules</a>
-                            <p style="display:inline-flex;">| Not Available yet</p>
-                        </li>
-                        <li>
-                            <a href="edit.html" style="display:inline-flex;">Final Multiple Modules</a>
-                            <p style="display:inline-flex;">| Not Available yet</p>
-                        </li>
-                    </ul>
+                                        <li>
+                                            <a href="edit.html" style="display:inline-flex;">A3 - JS + REACT Multiple Modules</a>
+                                            <p style="display:inline-flex;">| Not Available yet</p>
+                                        </li>
 
-                    <!-- Projects -->
-                    <h3 style="display: inline-flex;">PROJECTS 30% of Total</h3>
-                    <select onchange="window.location.href=this.value">
-                        <option value="edit.html">Edit</option>
-                        <option value="edit.html">Speed Grader</option>
-                        <option value="edit.html">Duplicate</option>
-                        <option value="edit.html">Delete</option>
-                        <option value="edit.html">Move To...</option>
-                        <option value="edit.html">Send To...</option>
-                        <option value="edit.html">Copy To...</option>
-                        <option value="edit.html">Share to Commons</option>
-                    </select>
-                    <ul>
-                        <li>
-                            <a href="edit.html" style="display:inline-flex;">Projects Multiple Modules</a>
-                            <p style="display:inline-flex;">| Not Available yet</p>
-                        </li>
-                    </ul>
+                                        <li>
+                                            <a href="edit.html" style="display:inline-flex;">A4 - STATE + REDUX Multiple Moudles</a>
+                                            <p style="display:inline-flex;">| Not Available yet</p>
+                                        </li>
 
-                </td>
+                                        <li>
+                                            <a href="edit.html" style="display:inline-flex;">A5 - NODE + SESSIONS Multiple Modules</a>
+                                            <p style="display:inline-flex;">| Not Available yet</p>
+                                        </li>
 
-            </tbody>
-        </table>
+                                        <li>
+                                            <a href="edit.html" style="display:inline-flex;">A6 - MONGO + MONGOOSE Multiple Modules</a>
+                                            <p style="display:inline-flex;">| Not Available yet</p>
+                                        </li>
+
+                                    </ul>
+
+                                <!-- Quizzes -->
+                                <h3 style="display: inline-flex;">QUIZZES 10% of Total</h3>
+                                <select onchange="window.location.href=this.value">
+                                    <option value="edit.html">Edit</option>
+                                    <option value="edit.html">Speed Grader</option>
+                                    <option value="edit.html">Duplicate</option>
+                                    <option value="edit.html">Delete</option>
+                                    <option value="edit.html">Move To...</option>
+                                    <option value="edit.html">Send To...</option>
+                                    <option value="edit.html">Copy To...</option>
+                                    <option value="edit.html">Share to Commons</option>
+                                </select>
+                                <ul>
+                                    <li>
+                                        <a href="edit.html" style="display:inline-flex;">Q1 - HTML Multiple Modules</a>
+                                        <p style="display:inline-flex;">| Not Available yet</p>
+                                    </li>
+                                    <li>
+                                        <a href="edit.html" style="display:inline-flex;">Q2 - CSS Multiple Modules</a>
+                                        <p style="display:inline-flex;">| Not Available yet</p>
+                                    </li>
+                                    <li>
+                                        <a href="edit.html" style="display:inline-flex;">Q3 - JS, ES6 Multiple Modules</a>
+                                        <p style="display:inline-flex;">| Not Available yet</p>
+                                    </li>
+                                    <li>
+                                        <a href="edit.html" style="display:inline-flex;">Q4 - NODE Multiple Modules</a>
+                                        <p style="display:inline-flex;">| Not Available yet</p>
+                                    </li>
+                                    <li>
+                                        <a href="edit.html" style="display:inline-flex;">Q5 - MONGO Multiple Modules</a>
+                                        <p style="display:inline-flex;">| Not Available yet</p>
+                                    </li>
+                                </ul>
+
+                                <!-- Exams -->
+                                <h3 style="display: inline-flex;">EXAMS 20% of Total</h3>
+                                <select onchange="window.location.href=this.value">
+                                    <option value="edit.html">Edit</option>
+                                    <option value="edit.html">Speed Grader</option>
+                                    <option value="edit.html">Duplicate</option>
+                                    <option value="edit.html">Delete</option>
+                                    <option value="edit.html">Move To...</option>
+                                    <option value="edit.html">Send To...</option>
+                                    <option value="edit.html">Copy To...</option>
+                                    <option value="edit.html">Share to Commons</option>
+                                </select>
+                                <ul>
+                                    <li>
+                                        <a href="edit.html" style="display:inline-flex;">Midterm Multiple Modules</a>
+                                        <p style="display:inline-flex;">| Not Available yet</p>
+                                    </li>
+                                    <li>
+                                        <a href="edit.html" style="display:inline-flex;">Final Multiple Modules</a>
+                                        <p style="display:inline-flex;">| Not Available yet</p>
+                                    </li>
+                                </ul>
+
+                                <!-- Projects -->
+                                <h3 style="display: inline-flex;">PROJECTS 30% of Total</h3>
+                                <select onchange="window.location.href=this.value">
+                                    <option value="edit.html">Edit</option>
+                                    <option value="edit.html">Speed Grader</option>
+                                    <option value="edit.html">Duplicate</option>
+                                    <option value="edit.html">Delete</option>
+                                    <option value="edit.html">Move To...</option>
+                                    <option value="edit.html">Send To...</option>
+                                    <option value="edit.html">Copy To...</option>
+                                    <option value="edit.html">Share to Commons</option>
+                                </select>
+                                <ul>
+                                    <li>
+                                        <a href="edit.html" style="display:inline-flex;">Projects Multiple Modules</a>
+                                        <p style="display:inline-flex;">| Not Available yet</p>
+                                    </li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
     </body>
 </html>

@@ -13,26 +13,6 @@
 }
 
 
-
-#wd-bread{
-    width:100%;
-    height:48px;
-    background-color: white;
-    margin-left:15px;
-    margin-top:16px;
-}
-
-
-.fa-bars{
-    color:#b52828;
-}
-
-.wd-hamburger-button{
-    background-color: #fff;
-    border:none;
-    width:36px;
-}
-
 body a{
     color:#b52828;
 }
@@ -177,14 +157,7 @@ a{
     min-width: 100%;
 }
 
-.wd-sandwich-sidebar-button{
-    background:none;
-    color:white;
-    border:none;
-}
-.wd-sandwich-sidebar-button i{
-    color:white;
-}
+
 
 .wd-sandwich-sidebar-button-container{
     display:flex; align-items: center;
