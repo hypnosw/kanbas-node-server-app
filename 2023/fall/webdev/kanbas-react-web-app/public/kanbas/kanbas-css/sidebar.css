@@ -15,14 +15,12 @@
   padding: 0;
 }
 
-
 #wd-sidebar {
-/* position: sticky; */
-/* display:flex; */
 height: 100%;
 z-index: 100;
 background-color: black;
 /* width:85px; */
+flex:1;
 }
 
 .wd-menu-list{

@@ -13,7 +13,6 @@ ul {
 
 .wd-menu-list .wd-active-item {
   background-color: white;
-  width:85px;
 }
 .wd-menu-list .wd-active-item a {
   color:rgb(167, 21, 35);
