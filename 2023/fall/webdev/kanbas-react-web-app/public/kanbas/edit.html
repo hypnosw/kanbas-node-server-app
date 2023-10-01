@@ -6,7 +6,8 @@
         <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/><head>
         <script src="https://kit.fontawesome.com/a78a37b29f.js" crossorigin="anonymous"></script>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" />
-    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
         <link href="kanbas-css/sidebar.css" rel="stylesheet"/>
         <link href="kanbas-css/edit.css" rel="stylesheet"/>
         <link href="kanbas-css/style.css" rel="stylesheet"/>
@@ -212,89 +213,141 @@
                                 </div>
                                 <hr>
 
-                                <h3>Assignment Name</h3>
-                                <input type="text" value="A1 - ENV + HTML" style="display: block; margin-bottom: 10px;">
-                                <textarea>This is the assignment description</textarea>
-            
-                                <p style="padding-bottom: 1px; margin-bottom: 2px;">Points</p>
-                                <input type="text" value="100">
-            
-                                <p style="padding-bottom: 1px; margin-bottom: 2px;">Assignment Group</p>
-                                <select>
-                                    <option>ASSIGNMENTS</option>
-                                </select>
-            
-                                <p style="padding-bottom: 1px; margin-bottom: 2px;">Display Grade as</p>
-                                <select>
-                                    <option>Percentage</option>
-                                </select>
-            
-                                <p style="padding-bottom: 1px; margin-bottom: 2px;">Submission Type</p>
-                                <select>
-                                    <option>Online</option>
-                                </select>
-            
-                                <p style="padding-bottom: 1px; margin-bottom: 2px;">Online Entry Options</p>
-                                <div>
-                                    <input type="checkbox" id="text-entry">
-                                    <label for="text-entry">Text Entry</label>
+                                <div class="wd-editing-items">
+                                    <p class="h4">Assignment Name</p>
+                                    <input type="text" value="A1 - ENV + HTML" class="d-block form-control">
+                                    <textarea class="form-control">This is the assignment description</textarea>
+                
+                                    <div class="row justify-content-center align-items-center wd-input-fields">
+                                        <!-- Labels -->
+                                        <div class="col wd-labels">
+                                            <div class="row">
+                                                    <p>Points</p>
+                                            </div>
+
+                                            <div class="row">
+                                                    <p>Assignment Group</p>
+                                            </div>
+
+                                            <div class="row">
+                                                    <p>Display Grade as</p>
+                                            </div>
+                                        </div>
+                                        <!-- inputs -->
+                                        <div class="col wd-inputs">
+                                            <div class="row">
+                                                <input type="text" class="form-control" value="100">
+                                            </div>
+
+                                            <div class="row">
+                                                    <div class="dropdown">
+    
+                                                    <button class="btn btn-light dropdown-toggle" type="button">
+                                                        Assignments
+                                                      </button>
+                                                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                      </div>
+                                                    </div>
+                                            </div>
+
+                                            <div class="row">
+                                                    <select>
+                                                        <option>Percentage</option>
+                                                    </select>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Submission Type</p>
+                                            </div>
+                                            <div class="col">
+                                                <select>
+                                                    <option>Online</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                        </div>
+                        
+ 
+                        
+
+                        
+                                            <p style="padding-bottom: 1px; margin-bottom: 2px;">Online Entry Options</p>
+                                            <div>
+                                                <input type="checkbox" id="text-entry">
+                                                <label for="text-entry">Text Entry</label>
+                                            </div>
+                                            
+                                            <div>
+                                                <input type="checkbox" id="website-url">
+                                                <label for="website-url">Website URL</label>
+                                            </div>
+                                            
+                                            <div>
+                                                <input type="checkbox" id="media-recording">
+                                                <label for="media-recording">Media Recordings</label>
+                                            </div>
+                                            
+                                            <div>
+                                                <input type="checkbox" id="student-annotations">
+                                                <label for="student-annotations">Student Annotations</label>
+                                            </div>
+                                            
+                                            <div>
+                                                <input type="checkbox" id="file-uploads">
+                                                <label for="file-uploads">File Uploads</label>
+                                            </div>
+                        
+                                            <p style="padding-bottom: 1px; margin-bottom: 2px;">Submission Attempts</p>
+                                            <select>
+                                                <option>Unlimited</option>
+                                            </select>
+                        
+                                            <p style="padding-bottom: 1px; margin-bottom: 2px;">Plagiarism Review</p>
+                                            <select>
+                                                <option>None</option>
+                                            </select>
+                        
+                                            <p style="padding-bottom: 1px; margin-bottom: 2px;">Group Assignment</p>
+                                            <input type="checkbox" id="group-assignment">
+                                            <label for="group-assignment">This is a group assignment</label>
+                        
+                                            <p style="padding-bottom: 1px; margin-bottom: 2px;">Peer Reviews</p>
+                                            <input type="checkbox" id="peer-review">
+                                            <label for="peer-review">Require Peer Reviews</label>
+                        
+                                            <p style="padding-bottom: 1px; margin-bottom: 2px;">Assign</p>
+                                            <p style="padding-bottom: 1px; margin-bottom: 2px;">Assign to</p>
+                                            <input type="text" value="Everyone">
+                        
+                                            <p style="padding-bottom: 1px; margin-bottom: 2px;">Due</p>
+                                            <input type="date">
+                        
+                                            <p style="padding-bottom: 1px; margin-bottom: 2px;">Available From</p>
+                                            <input type="date">
+                        
+                                            <p style="padding-bottom: 1px; margin-bottom: 2px;">Until</p>
+                                            <input type="date">
+                        
+                                            <div style="margin-top: 20px;">
+                                                <button onclick="window.location.href= 'assignments.html'">Cancel</button>
+                                                <button onclick="window.location.href= 'assignments.html'">Save</button>
+                                            </div>
+
+                                    </div>
+                                    
                                 </div>
                                 
-                                <div>
-                                    <input type="checkbox" id="website-url">
-                                    <label for="website-url">Website URL</label>
-                                </div>
-                                
-                                <div>
-                                    <input type="checkbox" id="media-recording">
-                                    <label for="media-recording">Media Recordings</label>
-                                </div>
-                                
-                                <div>
-                                    <input type="checkbox" id="student-annotations">
-                                    <label for="student-annotations">Student Annotations</label>
-                                </div>
-                                
-                                <div>
-                                    <input type="checkbox" id="file-uploads">
-                                    <label for="file-uploads">File Uploads</label>
-                                </div>
-            
-                                <p style="padding-bottom: 1px; margin-bottom: 2px;">Submission Attempts</p>
-                                <select>
-                                    <option>Unlimited</option>
-                                </select>
-            
-                                <p style="padding-bottom: 1px; margin-bottom: 2px;">Plagiarism Review</p>
-                                <select>
-                                    <option>None</option>
-                                </select>
-            
-                                <p style="padding-bottom: 1px; margin-bottom: 2px;">Group Assignment</p>
-                                <input type="checkbox" id="group-assignment">
-                                <label for="group-assignment">This is a group assignment</label>
-            
-                                <p style="padding-bottom: 1px; margin-bottom: 2px;">Peer Reviews</p>
-                                <input type="checkbox" id="peer-review">
-                                <label for="peer-review">Require Peer Reviews</label>
-            
-                                <p style="padding-bottom: 1px; margin-bottom: 2px;">Assign</p>
-                                <p style="padding-bottom: 1px; margin-bottom: 2px;">Assign to</p>
-                                <input type="text" value="Everyone">
-            
-                                <p style="padding-bottom: 1px; margin-bottom: 2px;">Due</p>
-                                <input type="date">
-            
-                                <p style="padding-bottom: 1px; margin-bottom: 2px;">Available From</p>
-                                <input type="date">
-            
-                                <p style="padding-bottom: 1px; margin-bottom: 2px;">Until</p>
-                                <input type="date">
-            
-                                <div style="margin-top: 20px;">
-                                    <button onclick="window.location.href= 'assignments.html'">Cancel</button>
-                                    <button onclick="window.location.href= 'assignments.html'">Save</button>
-                                </div>
                             </div>
 
                         </div>

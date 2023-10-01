@@ -12,7 +12,14 @@
     color:green;
 }
 
-/* 
-.wd-main-content-wrapper{
-    width:100vh;
-} */
+.wd-editing-items *{
+    margin-bottom: 10px;
+}
+
+.wd-input-fields .row *{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.wd-input-fields .row{
+    margin-bottom: 10px;
+}
