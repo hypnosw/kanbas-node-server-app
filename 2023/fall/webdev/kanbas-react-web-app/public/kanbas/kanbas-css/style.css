@@ -52,4 +52,14 @@ ul {
 .hr{
   border:1px solid #c7cdd1;
   margin-bottom:5px;
+
+}
+
+.wd-switch-buttons{
+  border-radius: 3px;
+  border-style:none;
+  margin-right:1px;
+  border-color:#2d3b45;
+  background-color: #f5f5f5;
+  color:#2d3b45;
 }
