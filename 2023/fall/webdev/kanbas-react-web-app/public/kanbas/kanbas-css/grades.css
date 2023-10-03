@@ -40,3 +40,12 @@
 .table .wd-student-name{
     color:rgb(167, 21, 35);
 }
+
+.wd-drop-down{
+    background-color: white;
+    border:1px solid #dee2e6;
+    text-align: start;
+    height:30px;
+    border-radius: 3px;
+    padding:3px 0px 3px 10px;
+}

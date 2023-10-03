@@ -18,6 +18,9 @@
     /* max-width:15%; */
 }
 
+.wd-labels-wrapper{
+    min-width:150px;
+}
 
 .wd-upload-label {
     display: inline-block;
@@ -36,19 +39,71 @@
   
   .wd-upload-wrapper{
     width:100%;
-    min-width:350px;
-    max-width:400px;
-    border:1px solid black;
+    min-width:250px;
+    max-width:300px;
+    border:1px solid #c7cdd1;
     height:100%;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-.wd-page-wrapper{min-width: 800px;}
+.wd-page-wrapper{
+    min-width: 1300px;
+    min-height:100vh;
+}
 .wd-input-labels{
     font-weight: bold;
+    margin:0px;
+}
+.wd-detail-item-wrapper{
+    margin:7px 0px 7px 0px;
 }
   
+.wd-subaccount-p{
+    color:rgb(167, 21, 35);
+}
   
-  
-  
+.wd-entire-page{
+    min-height:100vh;
+}
+.wd-drop-down{
+    background-color: white;
+    border:1px solid #dee2e6;
+    text-align: start;
+    height:30px;
+    border-radius: 3px;
+    padding:5px 0px 5px 10px;
+    min-width:300px;
+}
+
+.wd-template-check > p{
+    color:#c7cdd1;
+    padding-left:7px;
+}
+
+.wd-info-wrapper p{
+    margin:0px;
+}
+
+.wd-term-text{
+    font-weight: bold;
+}
+.wd-date-selector{
+    min-width:300px;
+}
+
+.wd-msg-text{
+    width:650px;
+}
+
+.wd-des-textarea{
+    min-width:350px;
+    min-height:130px;
+    border-color: #c7cdd1;
+}
+
+.wd-more-options{
+    color:rgb(167, 21, 35);
+    border:none;
+    background-color: white;
+}
