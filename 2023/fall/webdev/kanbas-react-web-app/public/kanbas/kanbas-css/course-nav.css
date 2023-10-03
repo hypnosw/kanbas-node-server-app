@@ -36,3 +36,30 @@
     font-style: italic;
     color:#c7cdd1;
 }
+
+@media (max-width:1260px) {
+    .wd-status-bar-container{
+        display:none;
+    }
+}
+
+@media (max-width:800px){
+    .wd-expanded-nav-container{
+        display:none;
+    }
+    .wd-sidebar-container{
+        display:none;
+    }
+    .wd-breadcrumb-container{
+        display:none;
+    }
+    .wd-small-navbar{
+        display:normal;
+    }
+}
+
+@media (min-width:801px){
+    .wd-small-navbar{
+        display:none;
+    }
+}
