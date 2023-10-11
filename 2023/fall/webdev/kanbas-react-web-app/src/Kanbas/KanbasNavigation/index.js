@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import * as styles from './kanbas-style.css';
+import * as styles from '../kanbas-style';
 function KanbasNavigation() {
     const links = ["Account", "Dashboard", "Courses", "Calendar"];
     const { pathname } = useLocation();
@@ -10,7 +10,7 @@ function KanbasNavigation() {
                 <Link
                     key={index}
                     to={`/Kanbas/${link}`}
-                    className={`list-group-item ${pathname.includes(link) && "active"}`}>
+                    className={`list-group-item ${styles.wdKanbasRed} ${pathname.includes(link) && "active"}`}>
                     {link}
                 </Link>
             ))}

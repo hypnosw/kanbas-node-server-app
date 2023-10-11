@@ -1,16 +1,17 @@
-const wdKanbasRed = {
+import React from "react";
+export const wdKanbasRed = {
     color:'rgb(167, 21, 35)',
 };
 
-const wdKanbasGray = {
+export const wdKanbasGray = {
     color:'#c7cdd1',
 };
 
-const wdKanbasBtnColor = {
+export const wdKanbasBtnColor = {
     color:'#f5f5f5',
 };
 
-const wdHrStyle = {
+export const wdHrStyle = {
     border:'1px solid #c7cdd1',
     'margin-bottom':'5px',
 };
@@ -19,9 +20,8 @@ const wdHrStyle = {
 //     color: '#B52828',
 // };
 
-const wdListNoLine = {
+export const wdListNoLine = {
     'list-style': 'none',
 };
 
 // export {wdKanbasBtnColor, wdKanbasRed, wdKanbasGray, wdHrStyle, wdListNoLine}
-export * from 'kanbas-styles';
