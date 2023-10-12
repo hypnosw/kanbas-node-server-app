@@ -30,7 +30,7 @@ function KanbasNavigation() {
     ];
     const { pathname } = useLocation();
     return (
-        <div className="list-group wd-nav-menu">
+        <nav className="list-group wd-nav-menu">
             <Link to="/Kanbas/">
                 <img className="wd-neu-logo" src="./neu-logo.png" alt="NEU Logo"/>
             </Link>
@@ -49,7 +49,7 @@ function KanbasNavigation() {
                     {link.name}
                 </Link>
             ))}
-        </div>
+        </nav>
     );
 }
 export default KanbasNavigation;

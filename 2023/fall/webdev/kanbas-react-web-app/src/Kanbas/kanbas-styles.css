@@ -1,0 +1,29 @@
+.wdKanbasRed {
+    color:rgb(167, 21, 35);
+}
+
+.wdKanbasGray {
+    color:#c7cdd1;
+}
+
+.wdKanbasBtnColor {
+    color:#f5f5f5;
+}
+
+.wdHrStyle {
+    /*border:1px solid #c7cdd1;*/
+    margin-bottom:5px;
+    /*color: #c7cdd1;*/
+}
+
+
+.wdListNoLine {
+list-style: none
+}
+
+.wd-main-content-wrapper{
+    margin-left:1%;
+    margin-right:1%;
+    width:95%;
+}
+
