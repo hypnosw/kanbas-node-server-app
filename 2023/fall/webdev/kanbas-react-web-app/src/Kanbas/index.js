@@ -1,15 +1,16 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import Nav from "../Nav";
 import KanbasNavigation from "./KanbasNavigation";
+import Dashboard from "./Dashboard";
 
 function Kanbas() {
     return(
+
         <div className="d-flex">
             <KanbasNavigation/>
             <div>
                 <h1>Account</h1>
-                <h1>Dashboard</h1>
+                <Dashboard/>
                 <h1>Courses</h1>
             </div>
         </div>

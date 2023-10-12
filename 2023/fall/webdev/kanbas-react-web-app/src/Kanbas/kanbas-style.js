@@ -1,6 +1,6 @@
 import React from "react";
 export const wdKanbasRed = {
-    color:'rgb(167, 21, 35)',
+    color:'rgb(167, 21, 35)'
 };
 
 export const wdKanbasGray = {
@@ -24,4 +24,3 @@ export const wdListNoLine = {
     'list-style': 'none',
 };
 
-// export {wdKanbasBtnColor, wdKanbasRed, wdKanbasGray, wdHrStyle, wdListNoLine}
