@@ -14,7 +14,7 @@ export const CourseCard = ({course}) => {
 
     return (
         <div className="course-card">
-            <Link key={course._id} to={`/Kanbas/Courses/${course._id}`} >
+            <Link key={course._id} to={`/Kanbas/Courses/${course._id}/Home`} >
                 <div className="card">
                     {/*<img className="card-img-top" src="..." alt="Card image cap"/>*/}
                     <div style={wdColorImage}></div>
