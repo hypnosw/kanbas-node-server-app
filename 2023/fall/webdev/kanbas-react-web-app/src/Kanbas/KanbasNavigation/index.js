@@ -9,6 +9,7 @@ import {AiOutlineDashboard} from "react-icons/ai";
 import {LiaBookSolid} from "react-icons/lia";
 import {BsFillCalendarDayFill} from "react-icons/bs";
 import {PiProjectorScreenChartFill} from "react-icons/pi";
+import neulogo from "./neu-logo.png";
 
 function KanbasNavigation() {
     // const links = ["Account", "Dashboard", "Courses", "Calendar", "Inbox",
@@ -32,7 +33,7 @@ function KanbasNavigation() {
     return (
         <nav className="list-group wd-nav-menu">
             <Link to="/Kanbas/">
-                <img className="wd-neu-logo" src="./neu-logo.png" alt="NEU Logo"/>
+                <img className="wd-neu-logo" src={neulogo} alt="NEU Logo"/>
             </Link>
 
             {linksWithIcons.map((link, index) => (

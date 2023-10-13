@@ -17,10 +17,12 @@
     justify-content: start;
     text-align: center;
     z-index:100;
+    position: fixed;
 }
 
 .wd-neu-logo{
-    width:150px;
+    width:80%;
+    padding:15px 0px 10px 0px;
 }
 
 .wd-menu-icons{

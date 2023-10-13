@@ -18,12 +18,26 @@
 
 
 .wdListNoLine {
-list-style: none
+    text-decoration: none
 }
 
 .wd-main-content-wrapper{
-    margin-left:1%;
+    margin-left:92px;
     margin-right:1%;
     width:95%;
 }
 
+.wd-burger-btn{
+    background: none;
+    border:none;
+    margin-right:10px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content:  ">" !important;
+}
+.wd-breadcrumb-h1{
+    font-size: 1.425rem;
+    margin:5px;
+    display: flex;
+}
