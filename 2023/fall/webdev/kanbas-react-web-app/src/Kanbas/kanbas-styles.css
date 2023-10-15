@@ -2,8 +2,12 @@
     color:rgb(167, 21, 35);
 }
 
-.wdKanbasGray {
-    color:#c7cdd1;
+.wdKanbasBorderGray {
+    border-color:#c7cdd1;
+}
+
+.wdKanbasBgGray{
+    background-color: #f5f5f5;
 }
 
 .wdKanbasBtnColor {

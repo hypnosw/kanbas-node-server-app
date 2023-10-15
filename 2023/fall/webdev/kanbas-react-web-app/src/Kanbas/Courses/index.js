@@ -1,16 +1,22 @@
 import db from "../../Kanbas/Database";
-import { useParams, Link } from "react-router-dom";
+import {Navigate, Route, Routes, useParams, Link, useLocation} from "react-router-dom";
 import React from "react";
 import {GiHamburgerMenu} from "react-icons/gi";
 import '../kanbas-styles.css';
 import CourseNavigation from "./CourseNavigation";
+import Modules from "./Modules";
+import Home from "./Home";
 
 
 
 function Courses() {
     const { courseId } = useParams();
-    console.log(`courseID: ${courseId}`);
     const course = db.courses.find((course) => course._id === courseId);
+    const { pathname } = useLocation();
+    const pathArray = pathname.split("/");
+    const current = pathArray[pathArray.length -1];
+    console.log("path:" + pathname);
+
     return (
 
         <div className="wd-main-wrapper">
@@ -27,13 +33,37 @@ function Courses() {
                                     CS {courseId}
                                 </Link>
                             </li>
-                            <li className="breadcrumb-item active" aria-current="page">Home</li>
+                            <li className="breadcrumb-item active" aria-current="page">{current}</li>
                         </ol>
                     </nav>
                 </div>
             </h1>
             <hr/>
             <CourseNavigation/>
+            <div>
+                <div
+                    className="overflow-y-scroll position-fixed bottom-0 end-0"
+                    style={{
+                        left: "320px",
+                        top: "50px",
+                    }}
+                >
+                    <Routes>
+                        <Route path="/" element={<Navigate to="Home" />} />
+                        <Route path="Home" element={<Home/>} />
+                        <Route path="Modules" element={<Modules/>} />
+
+                        <Route path="Assignments" element={<h1>Assignments</h1>} />
+                        <Route
+                            path="Assignments/:assignmentId"
+                            element={<h1>Assignment Editor</h1>}
+                        />
+
+                        <Route path="Grades" element={<h1>Grades</h1>} />
+                    </Routes>
+                </div>
+            </div>
+
 
         </div>
     );
