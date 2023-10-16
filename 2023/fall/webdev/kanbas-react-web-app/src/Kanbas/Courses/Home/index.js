@@ -18,7 +18,7 @@ function Home() {
     return (
         <div className="row m-1 justify-content-between">
             <div className="col wd-main-content">
-                <div className="d-flex wd-buttons-container">
+                <div className="d-flex wd-buttons-container justify-content-end">
                         <button type="button" className="btn wd-switch-buttons">Collapse
                             All
                         </button>
@@ -50,7 +50,6 @@ function Home() {
 
             </div>
             <div className="col-3 wd-status">
-                <h2>Status</h2>
                 <div className="row wd-status-bar-list">
                     <button type="button" className="btn">
                         <FaFileImport/> Existing Content</button>
@@ -66,7 +65,16 @@ function Home() {
                 <div className="wd-todo-list">
                     <h5>To Do</h5>
                     <hr/>
-
+                    <ul className="wdListNoDot m-0 p-0">
+                        <li>
+                            <p className=" wdKanbasRed m-0">Grade A1 - ENV + HTML</p>
+                            <p className=""><small>100 points Sep 18 at 11:59PM</small></p>
+                        </li>
+                        <li>
+                            <p className=" wdKanbasRed m-0">Grade A2 - CSS + BOOTSTRAP</p>
+                            <p className=""><small>100 points Oct 2 at 11:59PM</small></p>
+                        </li>
+                    </ul>
 
                 </div>
             </div>
