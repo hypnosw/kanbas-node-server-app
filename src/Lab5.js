@@ -49,6 +49,24 @@ const Lab5 = (app) => {
         const todo = todos.find((t) => t.id === parseInt(id));
         res.json(todo);
     });
+    app.get("/a5/todos/:id/title/:title", (req, res) => {
+        const { id, title } = req.params;
+        const todo = todos.find((t) => t.id === parseInt(id));
+        todo.title = title;
+        res.json(todos);
+    });
+    app.get("/a5/todos/:id/completed/:completed", (req, res)=>{
+        const { id, completed } = req.params;
+        const todo = todos.find((t)=> t.id === parseInt(id));
+        todo.completed = completed === "true";
+        res.json(todos);
+    });
+    app.get("/a5/todos/:id/description/:description", (req, res)=>{
+        const { id, description } = req.params;
+        const todo = todos.find((t)=> t.id === parseInt(id));
+        todo.description = description;
+        res.json(todos);
+    });
 
 
 
