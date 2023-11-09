@@ -9,6 +9,7 @@ function CourseRoutes(app) {
         Database.courses[index] = {...course};
         res.send(JSON.stringify(Database.courses));
     });
+
     app.get("/api/courses/:id", (req, res) => {
         const { id } = req.params;
         const course = Database.courses
@@ -21,6 +22,7 @@ function CourseRoutes(app) {
     });
 
     app.get("/api/courses", (req, res) => {
+        console.log(courses);
         res.send(courses);
     });
     app.post("/api/courses", (req, res) => {
