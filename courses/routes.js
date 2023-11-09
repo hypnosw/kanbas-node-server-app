@@ -9,6 +9,16 @@ function CourseRoutes(app) {
         Database.courses[index] = {...course};
         res.send(JSON.stringify(Database.courses));
     });
+    app.get("/api/courses/:id", (req, res) => {
+        const { id } = req.params;
+        const course = Database.courses
+            .find((c) => c._id === id);
+        if (!course) {
+            res.status(404).send("Course not found");
+            return;
+        }
+        res.send(course);
+    });
 
     app.get("/api/courses", (req, res) => {
         res.send(courses);
