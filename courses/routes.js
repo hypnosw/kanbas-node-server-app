@@ -1,6 +1,14 @@
 import Database from "../Database/index.js";
 function CourseRoutes(app) {
     const courses = Database.courses;
+    app.put("/api/courses/:id", (req, res) => {
+        const { id } = req.params;
+        const course = req.body;
+        const index = Database.courses.findIndex((c) =>
+                                                    c._id === id);
+        Database.courses[index] = {...course};
+        res.send(JSON.stringify(Database.courses));
+    });
 
     app.get("/api/courses", (req, res) => {
         res.send(courses);
