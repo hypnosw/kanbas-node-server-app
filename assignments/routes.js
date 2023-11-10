@@ -19,8 +19,18 @@ function AssignmentRoutes(app){
         } catch(error){
             res.status(404).send("Assignment delete failed");
         }
-
     })
+    app.put("/api/assignments/:cid", (req, res)=>{
+        const { cid } = req.params;
+        const newAssignment = req.body;
+        Database.assignments = Database.assignments.map((a)=> a._id === cid ? newAssignment : a);
+        res.sendStatus(200);
+    });
+    app.post("/api/assignments/", (req, res)=>{
+        const newAssignment = req.body;
+        Database.assignments.push(newAssignment);
+        res.sendStatus(200);
+    });
 
 }
 
