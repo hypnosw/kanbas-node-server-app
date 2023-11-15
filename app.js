@@ -12,18 +12,15 @@ const app = express();
 app.use(
     cors({
              credentials: true,
-             origin: "https://a5--mellow-druid-bd88f7.netlify.app/#/Kanbas/Dashboard",
+             origin: process.env.FRONTEND_URL.split(',').map(url => url.trim()),
          })
 );
 
 app.use(express.json());
 CourseRoutes(app);
-
 AssignmentRoutes(app);
 ModuleRoutes(app);
 Lab5(app);
 Hello(app);
 
-app.listen(process.env.PORT || 4000, () => {
-    console.log(`Server is running on port ${process.env.PORT || 4000}`);
-});
+app.listen(process.env.PORT || 4000);
