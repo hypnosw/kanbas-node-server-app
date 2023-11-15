@@ -12,7 +12,7 @@ const app = express();
 app.use(
     cors({
              credentials: true,
-             origin: "https://a5--mellow-druid-bd88f7.netlify.app/#/",
+             origin: "https://a5--mellow-druid-bd88f7.netlify.app/#/Kanbas/Dashboard",
          })
 );
 
