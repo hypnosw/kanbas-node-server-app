@@ -6,7 +6,9 @@ import CourseRoutes from "./courses/routes.js";
 import ModuleRoutes from "./modules/routes.js";
 import "dotenv/config";
 import AssignmentRoutes from "./assignments/routes.js";
+import mongoose from "mongoose";
 
+mongoose.connect("mongodb://localhost:27017/kanbas-cs5610");
 
 const app = express();
 app.use(
